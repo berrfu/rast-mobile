@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@mixin font-family-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+@mixin button-font {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+@mixin btn-sm-font {
+    font-weight: 500;
+    font-size: 13.42px;
+    line-height: 20.13px;
+}
+
+@mixin login-header-text {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+@mixin error-message {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+}
+
+@mixin toastr-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+@mixin header-font {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+@mixin header-font-mobile {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+@mixin label-dialog-text {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+
+@mixin table-header {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+
+@mixin table-row {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+}
+
+@mixin pagination-item-md {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+@mixin pagination-item-sm {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+@mixin search-font {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.94px;
+}
+
+@mixin warning-not-found-font {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.94px;
+}
+
+.error-message {
+    @include error-message;
+}
+
+.login-header {
+    @include login-header-text;
+}
